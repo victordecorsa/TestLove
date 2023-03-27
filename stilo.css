@@ -3,7 +3,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&display=swap');
-
+    
 body{
     background-color: rgb(255, 25, 25);
     text-align: center;
@@ -24,6 +24,33 @@ button{
     right: 140px;
     margin-top: 10px;
     font-size: 14pt;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+.bnt2{
+    bottom: 220px;
+    box-shadow: 3px 3px 1px rgb(61, 15, 50);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 7%;
+    font-size: 14pt;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+.bnt3{
+    width: 200px;
+    left: 90px;
+    box-shadow: 3px 3px 1px rgb(61, 15, 50);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 7%;
+    font-size: 11pt;
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
 /*formatação textos*/
 .titulo{
@@ -31,15 +58,26 @@ button{
     color: white;
     text-align: center;
     font-family: 'Noto Sans Avestan', sans-serif;
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
 .sub{
     font-size: 14pt;
     color: white;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
 /*formatação imgs*/
 .emoji{
-    width: 200px;
+    width: 290px;
     height: 250px;
+    animation: backInDown;
+    animation-duration: 1.5s;
+}
+.emoji1{
+    width: 200px;
+    animation: backInDown;
+    animation-duration: 1.5s;
 }

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*background*/
+body{
+    background-color: rgb(158, 47, 170);]
+    text-align: center;
+}
+.universe{
+    width: 100%;
+    height: 290px;
+    
+}
+.titulo{
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans Avestan', sans-serif;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+.sub{
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+button{
+    font-family: 'Noto Sans Avestan', sans-serif;;
+
+   color: rgb(170, 27, 214);
+   position: absolute;
+   background-color: rgb(220, 220, 220);
+   box-shadow: 3px 3px 1px rgb(61, 15, 50);
+   padding-top: 10px;
+   padding-left: 30px;
+   padding-bottom: 10px;
+   padding-right: 30px;
+   border-radius: 7%;
+   right: 120px;
+   margin-top: 10px;
+   font-size: 14pt;
+   animation: fadeInUp;
+    animation-duration: 1s;
+}
+.emoji{
+    animation: backInDown;
+    animation-duration: 1.5s;
+}
